@@ -28,8 +28,8 @@ const mokTodo = [
 
 function App() {
   // TodoItem의 상태를 관리할 state
-  const [todo, setTodo] = useState([mokTodo]);
-  const idRef = useRef(3);
+  const [todo, setTodo] = useState(mokTodo);
+  const idRef = useRef(3); // ReactDOM 객체에 접근하기 위해 사용하는 hooks
 
   // TodoItem 추가
   const onCreate = (content) => {
