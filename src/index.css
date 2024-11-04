@@ -1,13 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  /* -webkit-font-smoothing: antialiased; 크롬에서 쓰는 웹브라우저
+  -moz-osx-font-smoothing: grayscale; 맥에서 쓰는 웹브라우저  이 두가지는 font-smoothing이 없다  그속성이 없는경우 대체하려라 라는 것 */
 }
